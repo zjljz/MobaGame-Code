@@ -1,0 +1,59 @@
+# Code-only repository: reject Content at every depth.
+Content/
+**/Content/
+
+# Unreal assets and binary packages, regardless of directory.
+*.uasset
+*.umap
+*.ubulk
+*.uexp
+*.uptnl
+*.pak
+*.ucas
+*.utoc
+*.exe
+*.dll
+*.pdb
+*.lib
+*.so
+*.dylib
+*.a
+*.zip
+*.7z
+
+# Generated output.
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# External dependencies are restored separately.
+/Plugins/GMP/
+/Plugins/Developer/RiderLink/
+/Plugins/UnrealAgentLink/
+
+# Private tooling and workflow state.
+/AI/
+/.agents/
+/.codex/
+/Tools/
+/Design/
+/Docs/PagesSync*
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+/Config/NativeMessageTags.ini
+.DS_Store
+Thumbs.db
+
